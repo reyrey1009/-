@@ -33,7 +33,7 @@ let growth = 0, gold = 0, clickPower = 1, rebirthLevel = 0;
     <h1>🌿 식물 키우기 Clicker v21</h1>
     <div class="stat">📘 현재 도감: <span id="dexTitle">기본 도감</span></div>
     <div id="plant">🌱</div>
-    <div class="stat">📈 성장: <span id="growth">0</span></div>
+    <div class="stat">📈 박건바보: <span id="growth">0</span></div>
     <div class="stat">💰 골드: <span id="gold">0</span></div>
     <div class="stat">💪 클릭력: <span id="clickPower">1</span></div>
     <div class="stat">⚙️ 자동속도: <span id="autoSpeed">1</span>점/초</div>
