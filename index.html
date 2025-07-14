@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <!-- (스타일·UI 부분 생략) -->
+</head>
+<body>
+  <!-- (게임 화면 요소) -->
+  <!-- 리셋 버튼, 피버 표시, 메인·상점·도감 섹션 등 -->
+  <script>
+    const GAME_VERSION = "1.0.0";
+    fetch("version.json")
+      .then(r=>r.json())
+      .then(j=>{ if(j.version!==GAME_VERSION) location.reload(true); });
+  </script>
+  <script src="game.js"></script>
+</body>
+</html>
